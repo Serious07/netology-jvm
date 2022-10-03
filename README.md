@@ -1,8 +1,10 @@
 # netology-jvm
 
-```
+```java
 
-// Срабатывает Подсистема загрузчиков классов, в MetaSpace инициализируются все системные классы, зависимости, после чего класс JvmComprehension
+// Срабатывает Подсистема загрузчиков классов, 
+// в MetaSpace инициализируются все системные классы, 
+// зависимости, после чего класс JvmComprehension
 public class JvmComprehension {
     // В момент вызова создаётся кадр в стеке
     public static void main(String[] args) {
